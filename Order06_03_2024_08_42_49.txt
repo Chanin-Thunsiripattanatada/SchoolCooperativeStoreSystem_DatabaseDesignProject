@@ -1,0 +1,5 @@
+Order : 06_03_2024_08_42_49
+Member : M003	 Employee : ชนินทร์
+Product			Price			Quantity
+นมพาสฯ เมจิจืด 830 มล.			40.0			2
+Total : 80.0

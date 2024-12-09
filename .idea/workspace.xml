@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2ffe24b-928c-46fb-ac61-62d123ccf206" name="Changes" comment="version 1.0">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_06_31_07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_06_50_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_07_39_16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_07_40_10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_08_42_49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_09_03_15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_09_03_24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_09_10_55.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_08_29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_08_54.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_09_02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_09_07.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_09_27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order06_03_2024_12_09_33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/AccountMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ListMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ListProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Memberpurchasebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ProductIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Sharebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Sharebookmember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/TCooperativeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/TIncome_Expenses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Tmemberpurchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Tsharebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/AccountDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/AccountIncome_ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/CounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/MemberdetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/MemberinfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/PerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductCheckstockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductEXPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/ProductaddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/RegisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/StockBuySellController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/StockMarketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/account.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/accountdata.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/check_stock.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/counter.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/income_expense.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/member.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/member_detail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/member_info.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/performance.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/prod_add.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/prod_data.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/prod_detail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/prod_exp.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/product.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/regis_member.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/stock_market.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/stockmarketmenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/databasedesignpro/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/example/databasedesignpro/Testconnect_mysql.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2bzgqHiBRdmnEHAF0uIULRSLYiy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Testconnect_mysql.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maintest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aomsi/IdeaProjects/DatabaseDesignPro/src/main/resources/com/example/databasedesignpro&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aomsi\IdeaProjects\DatabaseDesignPro\src\main\resources\com\example\databasedesignpro" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aomsi\IdeaProjects\DatabaseDesignPro" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.databasedesignpro" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="JarApplication" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.databasedesignpro.App" />
+      <module name="DatabaseDesignPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.databasedesignpro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-5bc9ecd2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2ffe24b-928c-46fb-ac61-62d123ccf206" name="Changes" comment="" />
+      <created>1707223513477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707223513477</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.mysql.cj.jdbc.exceptions.MysqlDataTruncation" package="com.mysql.cj.jdbc.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

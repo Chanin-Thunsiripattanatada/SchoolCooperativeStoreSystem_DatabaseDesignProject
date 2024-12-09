@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasedesignpro.ProductDetailController">
+   <children>
+      <Text layoutX="484.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รายละเอียดสินค้าสินค้า">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="237.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รหัสสินค้า : " wrappingWidth="85.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="713.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชื่อสินค้า : " wrappingWidth="80.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="239.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ต้นทุนต่อชิ้น : " wrappingWidth="100.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="712.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ราคาขาย : " wrappingWidth="80.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="237.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รายละเอียดสินค้า : " wrappingWidth="140.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="240.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="จำนวนปัจจุบัน : " wrappingWidth="120.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="240.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ขนาด/ปริมาณ/น้ำหนักต่อชิ้น : " wrappingWidth="210.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="713.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชนิดสินค้า : " wrappingWidth="90.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="459.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="บาท" textAlignment="RIGHT" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="913.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="บาท" textAlignment="RIGHT" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="470.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="474.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชิ้น/แพ็ค/กก." textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="pid" layoutX="322.0" layoutY="145.0" prefHeight="17.0" prefWidth="77.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="cost_per_unit" layoutX="339.0" layoutY="219.0" prefHeight="30.0" prefWidth="120.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="product_detail" layoutX="376.0" layoutY="289.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="pname" layoutX="793.0" layoutY="151.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="price" layoutX="793.0" layoutY="223.0" prefHeight="30.0" prefWidth="120.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="weight" layoutX="450.0" layoutY="404.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="categoryid" layoutX="803.0" layoutY="404.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="amount" layoutX="361.0" layoutY="460.0" text="                   ">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

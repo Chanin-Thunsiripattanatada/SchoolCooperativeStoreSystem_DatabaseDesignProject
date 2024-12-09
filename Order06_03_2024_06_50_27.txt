@@ -1,0 +1,5 @@
+Order : 06_03_2024_06_50_27
+Member : M002	 Employee : ชนินทร์
+Product			Price			Quantity
+มันหวานญี่ปุ่นเผา			27.0			10
+Total : 270.0

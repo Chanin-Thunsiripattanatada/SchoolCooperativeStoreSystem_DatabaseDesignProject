@@ -1,0 +1,5 @@
+Order : 06_03_2024_12_09_27
+Member : M005	 Employee : ชนินทร์ ธัญสิริพัฒนธาดา
+Product			Price			Quantity
+โยเกิร์ตดัชชี่วุ้นมะพร้าว			15.0			20
+Total : 300.0

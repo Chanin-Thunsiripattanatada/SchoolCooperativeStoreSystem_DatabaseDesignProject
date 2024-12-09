@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasedesignpro.ProductaddController">
+   <children>
+      <Text layoutX="522.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="เพิ่มข้อมูลสินค้า">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="84.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รหัสสินค้า" wrappingWidth="90.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="pid" layoutX="174.0" layoutY="168.0" prefHeight="41.0" prefWidth="264.0" />
+      <Text layoutX="611.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชื่อสินค้า" wrappingWidth="70.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="pname" layoutX="687.0" layoutY="168.0" prefHeight="41.0" prefWidth="264.0" />
+      <Text layoutX="84.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ต้นทุนต่อชิ้น" wrappingWidth="90.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="cost_per_unit" layoutX="174.0" layoutY="232.0" prefHeight="41.0" prefWidth="264.0" />
+      <Text layoutX="611.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ราคาขาย" wrappingWidth="70.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="price" layoutX="687.0" layoutY="232.0" prefHeight="41.0" prefWidth="264.0" />
+      <Text layoutX="84.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รายละเอียดสินค้า" wrappingWidth="125.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="product_detail" layoutX="214.0" layoutY="300.0" prefHeight="66.0" prefWidth="736.0" />
+      <Text layoutX="79.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="จำนวนเริ่มต้น" wrappingWidth="100.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="amount" layoutX="184.0" layoutY="468.0" prefHeight="41.0" prefWidth="171.0" />
+      <Text layoutX="84.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ขนาด/ปริมาณ/น้ำหนักต่อชิ้น" wrappingWidth="200.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="weight" layoutX="306.0" layoutY="394.0" prefHeight="41.0" prefWidth="179.0" />
+      <ComboBox fx:id="categoryid" layoutX="702.0" layoutY="404.0" prefHeight="25.0" prefWidth="137.0" />
+      <Text layoutX="606.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชนิดสินค้า" wrappingWidth="80.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="456.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="บาท">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="962.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="บาท" textAlignment="RIGHT" wrappingWidth="40.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="819.0" layoutY="476.0" mnemonicParsing="false" onAction="#insertProduct" prefHeight="66.0" prefWidth="202.0" style="-fx-background-color: lime;" styleClass="confirm-button" text="เพิ่มข้อมูลสินค้า" />
+      <Text layoutX="518.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="388.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ชิ้น/แพ็ค/กก." textAlignment="RIGHT" wrappingWidth="100.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="status" layoutX="84.0" layoutY="103.0" prefHeight="41.0" prefWidth="100.0" promptText="เพิ่ม/แก้ไข" styleClass="Add" />
+      <Label fx:id="check" layoutX="640.0" layoutY="491.0" prefHeight="23.0" prefWidth="125.0">
+         <font>
+            <Font name="Cordia New" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

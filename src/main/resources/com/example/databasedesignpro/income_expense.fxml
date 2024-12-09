@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasedesignpro.AccountIncome_ExpenseController">
+   <children>
+      <Text layoutX="484.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="รายละเอียดเงินเข้า/ออก">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <TableView fx:id="accountTable" layoutX="98.0" layoutY="133.0" prefHeight="382.0" prefWidth="1004.0">
+         <columns>
+            <TableColumn fx:id="recodeDateColumn" prefWidth="75.0" text="วันที่" />
+            <TableColumn fx:id="typeColumn" prefWidth="75.0" text="ประเภท" />
+            <TableColumn fx:id="totalColumn" prefWidth="75.0" text="ยอดแต่ละรายการ" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <DatePicker fx:id="firstdate" layoutX="636.0" layoutY="89.0" prefHeight="25.0" prefWidth="150.0" />
+      <Text layoutX="330.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="สถานะ" wrappingWidth="60.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="typeComboBox" layoutX="390.0" layoutY="90.0" prefHeight="25.0" prefWidth="150.0" styleClass="Add" />
+      <Text layoutX="586.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="วันที่" textAlignment="CENTER" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="786.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ถึง" textAlignment="CENTER" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="lastdate" layoutX="836.0" layoutY="90.0" prefHeight="25.0" prefWidth="150.0" />
+      <Text layoutX="796.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ยอดรวม :" wrappingWidth="100.0">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <Label fx:id="totalLabel" layoutX="896.0" layoutY="521.0" text="        ">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="1018.0" layoutY="78.0" mnemonicParsing="false" onAction="#quaryIncomeExpense" prefHeight="47.0" prefWidth="84.0" text="ค้นหา" />
+   </children>
+</Pane>

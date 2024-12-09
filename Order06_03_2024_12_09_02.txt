@@ -1,0 +1,5 @@
+Order : 06_03_2024_12_09_02
+Member : M005	 Employee : ชนินทร์ ธัญสิริพัฒนธาดา
+Product			Price			Quantity
+บิ๊กเปาหมูสับไข่เค็ม			20.0			2
+Total : 40.0

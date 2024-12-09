@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasedesignpro.RegisController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="1200.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="160.0" prefWidth="1205.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="สมัครสมาชิก">
+                     <font>
+                        <Font name="Cordia New" size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="1080.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="หมายเลขบัตรประชาชน : ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="idpersonal" prefHeight="35.0" prefWidth="283.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ชื่อ-นามสกุล : ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="name" prefHeight="41.0" prefWidth="353.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="1080.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" layoutX="307.0" layoutY="10.0" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ที่อยู่ : ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="address" prefHeight="89.0" prefWidth="404.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="สถานะ :  ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <ComboBox fx:id="role" prefHeight="34.0" prefWidth="128.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="1080.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="เบอร์โทร : ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="phone" prefHeight="35.0" prefWidth="242.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email  : ">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font>
+                        </Text>
+                        <TextField fx:id="email" prefHeight="35.0" prefWidth="265.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="160.0" prefWidth="1080.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Label fx:id="check" text="        " textFill="RED">
+                           <font>
+                              <Font name="Cordia New" size="24.0" />
+                           </font></Label>
+                     </children></HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#getregisData" prefHeight="73.0" prefWidth="170.0" styleClass="confirm-button" stylesheets="@style.css" text="เพิ่มข้อมูลสมาชิก" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>

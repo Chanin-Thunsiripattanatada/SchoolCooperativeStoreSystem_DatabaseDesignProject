@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.databasedesignpro.PerformanceController">
+   <children>
+      <Text layoutX="194.0" layoutY="521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="เงินสดในสหกรณ์วันที่">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Text>
+      <Label fx:id="firstdateLabel" ellipsisString="100" layoutX="407.0" layoutY="489.0" prefHeight="43.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="firstvalueLabel" layoutX="571.0" layoutY="491.0" text="Label">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Label>
+      <Text layoutX="527.0" layoutY="522.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="192.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="เงินสดในสหกรณ์วันที่">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Text>
+      <Label fx:id="lastdateLabel" layoutX="405.0" layoutY="531.0" prefWidth="110.0" text="Label">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastvalueLabel" layoutX="569.0" layoutY="531.0" text="Label">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Label>
+      <Text layoutX="525.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+         <font>
+            <Font name="Cordia New" size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="668.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="เพิ่มขึ้น/ลดลง :" wrappingWidth="160.0">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <Label fx:id="difvalueLabel" layoutX="828.0" layoutY="498.0" text="Label">
+         <font>
+            <Font name="Cordia New" size="48.0" />
+         </font>
+      </Label>
+      <Text layoutX="251.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="กราฟเส้นแสดงเงินรวมในแต่ละวัน">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="475.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ผลประกอบการ">
+         <font>
+            <Font name="Cordia New" size="36.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="firstdate" layoutX="356.0" layoutY="103.0" />
+      <Text layoutX="309.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="วันที่" textAlignment="CENTER" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="531.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ถึง" textAlignment="CENTER" wrappingWidth="50.0">
+         <font>
+            <Font name="Cordia New" size="24.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="lastdate" layoutX="581.0" layoutY="102.0" />
+      <VBox fx:id="linechartVBox" layoutX="183.0" layoutY="150.0" prefHeight="300.0" prefWidth="346.0" />
+      <VBox fx:id="piechartVBox" layoutX="591.0" layoutY="159.0" prefHeight="300.0" prefWidth="346.0" />
+      <Button layoutX="798.0" layoutY="97.0" mnemonicParsing="false" onAction="#quaryaccountdata" prefHeight="37.0" prefWidth="69.0" text="สรุปผล" />
+   </children>
+</Pane>

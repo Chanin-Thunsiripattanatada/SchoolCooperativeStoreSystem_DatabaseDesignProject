@@ -1,0 +1,5 @@
+Order : 06_03_2024_07_39_16
+Member : 	 Employee : ชนินทร์
+Product			Price			Quantity
+โอวันตินโกลด์ 3 in 1 แพ็ก 12 ซอง			125.0			2
+Total : 250.0

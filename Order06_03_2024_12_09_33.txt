@@ -1,0 +1,5 @@
+Order : 06_03_2024_12_09_33
+Member : M005	 Employee : ชนินทร์ ธัญสิริพัฒนธาดา
+Product			Price			Quantity
+นมพาสฯ เมจิจืด 830 มล.			46.75			3
+Total : 140.25
