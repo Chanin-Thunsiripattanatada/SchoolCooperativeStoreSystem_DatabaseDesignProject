@@ -1,0 +1,1 @@
+# SchoolCooperativeStoreSystem_DatabaseDesignProject
